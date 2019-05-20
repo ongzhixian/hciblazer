@@ -1,0 +1,7 @@
+language: csharp
+solution: HciBlazer.sln
+mono: none
+dotnet: 2.1.603
+script:
+ - dotnet restore
+ - dotnet test
