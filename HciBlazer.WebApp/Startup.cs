@@ -48,7 +48,9 @@ namespace HciBlazer.WebApp
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            // ZX:  Disabled HTTPS redirection
+            //      Cloud -> HAProxy -> Nginx -> Kestrel
+            // app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
 
