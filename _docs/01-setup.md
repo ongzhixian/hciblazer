@@ -9,3 +9,8 @@ dotnet new globaljson --sdk-version 2.1.603
 
 git config user.name "xxx xxxx"
 git config user.email "xxx@xxx.xxx"
+
+## Use Material Design using Materialize
+
+See following link as reference:
+https://materializecss.com/
