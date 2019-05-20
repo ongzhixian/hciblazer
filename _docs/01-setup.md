@@ -14,3 +14,6 @@ git config user.email "xxx@xxx.xxx"
 
 See following link as reference:
 https://materializecss.com/
+
+## Bundle and minify static assets in ASP.NET Core
+https://docs.microsoft.com/en-us/aspnet/core/client-side/bundling-and-minification?view=aspnetcore-2.1
