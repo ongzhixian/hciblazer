@@ -9,4 +9,5 @@ dotnet add package Serilog.Sinks.Console --version 3.1.1
 dotnet add package Serilog.Settings.Configuration --version 3.0.1
 dotnet add package Serilog.Sinks.RollingFile --version 3.3.0
 
-
+dotnet add package BuildBundlerMinifier
+Remember to add bundleconfig.json file (its not included by default in ASP.NET Core projects)
